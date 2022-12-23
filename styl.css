@@ -98,7 +98,7 @@ body{
     position:fixed;
     top:25vh;
     left:20vw;
-    -webkit-text-fill-color: rgb(19, 255, 7);
+    -webkit-text-fill-color: rgb(13, 255, 0);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
 
@@ -171,16 +171,17 @@ body{
     position:fixed;
     top:25vh;
     right:10vw;
+   
+    background-size:cover;
     
 }
-  .bg1{
+.bg1{
     object-fit: fill;
     object-position: 50% 50%;
     height:65vh;
     width:80vw; 
     
 }
-
 .songitem1 {
     height:6vh;
     width:30vw;
@@ -397,7 +398,9 @@ i{
         justify-content: center;
         align-items: center;
         position:fixed;
-        margin:3vh
+        margin:3vh;
+        
+        
     }
     .big-box{
         
