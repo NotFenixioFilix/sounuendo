@@ -171,10 +171,16 @@ body{
     position:fixed;
     top:25vh;
     right:10vw;
-    background-image: url(../https://github.com/IDZTPHKKKS/sounuendo/blob/main/images/bg1.jpg);
-    background-size:cover;
     
 }
+  .bg1{
+    object-fit: fill;
+    object-position: 50% 50%;
+    height:65vh;
+    width:80vw; 
+    
+}
+
 .songitem1 {
     height:6vh;
     width:30vw;
